@@ -12,4 +12,15 @@
 
     <string name="dairy_not_name">No se ha indicado el nombre.</string>
     <string name="dairy_not_surname">No se han indicado los apellidos.</string>
+    <string name="dairy_not_name_and_surname">No se ha indicado ni el nombre ni los appellidos</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+
+    <string name="recipe_no_img_text">Imagen de la receta</string>
+    <string name="recipe_author">Autor</string>
+    <string name="recipe_title">Pan tostado</string>
+    <string name="recipe_description_title">Descripción</string>
+    <string name="recipe_ingredients_title">Ingredienctes</string>
+    <string name="recipe_recipe_title">Receta</string>
+
 </resources>

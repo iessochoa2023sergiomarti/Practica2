@@ -50,7 +50,7 @@ class DairyActivity : AppCompatActivity() {
             Toast.makeText(this, R.string.dairy_not_surname,Toast.LENGTH_LONG).show()
         } else {
             // Si lo hacia concatenando cadenas daba un error al no reconocer el tipo string
-            Toast.makeText(this, String.format("%s %s", R.string.dairy_not_name, R.string.dairy_not_surname),Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.dairy_not_name_and_surname, Toast.LENGTH_LONG).show()
         }
     }
 }
