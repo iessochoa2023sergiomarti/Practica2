@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Practica2</string>
+    <string name="main_view_title">Sergio Martí - Práctica 2</string>
+    <string name="main_view_btn_dairy">Agenda</string>
+    <string name="main_view_btn_recipe">Receta</string>
+
+    <string name="dary_view_tv_new_contact">Nuevo contacto</string>
+    <string name="dary_view_et_name">Nombre</string>
+    <string name="dary_view_et_surname">Apellidos</string>
+    <string name="dary_view_et_phone">Numero telefonico</string>
+    <string name="dary_view_et_notes">Notas varias</string>
 </resources>

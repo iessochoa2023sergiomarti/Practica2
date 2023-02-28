@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DairyActivity">
+
+
+    <TextView
+        android:id="@+id/tvNewContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dary_view_tv_new_contact"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="nuevo contacto" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dary_view_et_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etSurnames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dary_view_et_surname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dary_view_et_phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/notes_background"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/dary_view_et_notes"
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@android:string/ok" />
+
+        <Button
+            android:id="@+id/btCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@android:string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>
