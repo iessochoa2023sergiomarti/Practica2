@@ -4,9 +4,12 @@
     <string name="main_view_btn_dairy">Agenda</string>
     <string name="main_view_btn_recipe">Receta</string>
 
-    <string name="dary_view_tv_new_contact">Nuevo contacto</string>
-    <string name="dary_view_et_name">Nombre</string>
-    <string name="dary_view_et_surname">Apellidos</string>
-    <string name="dary_view_et_phone">Numero telefonico</string>
-    <string name="dary_view_et_notes">Notas varias</string>
+    <string name="dairy_view_tv_new_contact">Nuevo contacto</string>
+    <string name="dairy_view_et_name">Nombre</string>
+    <string name="dairy_view_et_surname">Apellidos</string>
+    <string name="dairy_view_et_phone">Numero telefonico</string>
+    <string name="dairy_view_et_notes">Notas varias</string>
+
+    <string name="dairy_not_name">No se ha indicado el nombre.</string>
+    <string name="dairy_not_surname">No se han indicado los apellidos.</string>
 </resources>

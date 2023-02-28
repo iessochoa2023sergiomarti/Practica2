@@ -12,7 +12,7 @@
         android:id="@+id/tvNewContact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/dary_view_tv_new_contact"
+        android:text="@string/dairy_view_tv_new_contact"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         tools:text="nuevo contacto" />
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/dary_view_et_name"
+        android:hint="@string/dairy_view_et_name"
         android:inputType="textPersonName" />
 
     <EditText
@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/dary_view_et_surname"
+        android:hint="@string/dairy_view_et_surname"
         android:inputType="textPersonName" />
 
     <EditText
@@ -38,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/dary_view_et_phone"
+        android:hint="@string/dairy_view_et_phone"
         android:inputType="phone" />
 
     <EditText
@@ -49,7 +49,7 @@
         android:background="@color/notes_background"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="@string/dary_view_et_notes"
+        android:hint="@string/dairy_view_et_notes"
         android:inputType="textMultiLine" />
 
     <LinearLayout
